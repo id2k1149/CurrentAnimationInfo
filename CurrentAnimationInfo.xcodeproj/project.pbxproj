@@ -83,6 +83,8 @@
 			dependencies = (
 			);
 			name = CurrentAnimationInfo;
+			packageProductDependencies = (
+			);
 			productName = CurrentAnimationInfo;
 			productReference = 5036D91B2933D55600677459 /* CurrentAnimationInfo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +113,8 @@
 				Base,
 			);
 			mainGroup = 5036D9122933D55500677459;
+			packageReferences = (
+			);
 			productRefGroup = 5036D91C2933D55600677459 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
