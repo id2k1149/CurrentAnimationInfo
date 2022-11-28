@@ -16,9 +16,9 @@ class Animation {
 """
 preset: \(preset)
 curve: \(curve)
-force: \(force)
-duration: \(duration)
-delay: \(delay)
+force: \(String(format: "%.02f", force))
+duration: \(String(format: "%.02f", duration))
+delay: \(String(format: "%.02f", delay))
 """
     }
     
@@ -42,7 +42,7 @@ extension Animation {
         let curve = DataStore.shared.curves.randomElement()
         let force = Double.random(in: 1...2)
         let duration = Double.random(in: 0...2)
-        let delay = Double.random(in: 0...2)
+        let delay = Double.random(in: 0...0.5)
         
         let animation = Animation(
             preset: preset ?? "pop",

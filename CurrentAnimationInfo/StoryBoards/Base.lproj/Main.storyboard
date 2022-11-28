@@ -30,8 +30,8 @@
                                 <constraints>
                                     <constraint firstItem="02i-Hk-vsy" firstAttribute="centerX" secondItem="MmK-3j-MpD" secondAttribute="centerX" id="KYa-Xc-nUL"/>
                                     <constraint firstItem="02i-Hk-vsy" firstAttribute="centerY" secondItem="MmK-3j-MpD" secondAttribute="centerY" id="PpD-t9-ngz"/>
-                                    <constraint firstItem="02i-Hk-vsy" firstAttribute="height" secondItem="MmK-3j-MpD" secondAttribute="height" multiplier="0.9" id="big-PQ-4aA"/>
-                                    <constraint firstAttribute="height" constant="170" id="r2j-JM-Jph"/>
+                                    <constraint firstItem="02i-Hk-vsy" firstAttribute="height" secondItem="MmK-3j-MpD" secondAttribute="height" multiplier="0.9" id="big-PQ-4aA" userLabel="Animation Info.height = 0.95 × height"/>
+                                    <constraint firstAttribute="height" constant="170" id="r2j-JM-Jph" userLabel="height = 150"/>
                                     <constraint firstItem="02i-Hk-vsy" firstAttribute="width" secondItem="MmK-3j-MpD" secondAttribute="width" multiplier="0.95" id="uBM-cj-xrv"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
