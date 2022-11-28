@@ -23,8 +23,6 @@ class MainViewController: UIViewController {
     
     @IBAction func runButtonTapped(_ sender: SpringButton) {
         
-        print(runButton.currentTitle as Any)
-        
         if runButton.currentTitle == "Run" {
             getInfoValues()
             infoView.animate()
