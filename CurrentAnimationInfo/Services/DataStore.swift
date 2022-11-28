@@ -5,8 +5,8 @@
 //  Created by Max Franz Immelmann on 11/27/22.
 //
 
-class DataSource {
-    static let shared = DataSource()
+class DataStore {
+    static let shared = DataStore()
     
     let animations = [
         "pop",
@@ -69,8 +69,6 @@ class DataSource {
         "easeOutBack",
         "easeInOutBack"
     ]
-    
-    
     
     private init() {}
 }

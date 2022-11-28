@@ -19,47 +19,20 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MmK-3j-MpD" userLabel="Info View" customClass="SpringView" customModule="SpringAnimation">
                                 <rect key="frame" x="60" y="88" width="294" height="170"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="2GU-vs-YL3">
-                                        <rect key="frame" x="10" y="13" width="78" height="144"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="preset:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYc-cJ-TJp">
-                                                <rect key="frame" x="0.0" y="0.0" width="61" height="24"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="curve:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="anr-NJ-8uj">
-                                                <rect key="frame" x="0.0" y="30" width="54" height="24"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="force:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njX-gN-rAw">
-                                                <rect key="frame" x="0.0" y="60" width="50" height="24"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="duration:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19L-ZR-aYM">
-                                                <rect key="frame" x="0.0" y="90" width="78" height="24"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="delay:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ejd-zP-iPP">
-                                                <rect key="frame" x="0.0" y="120" width="52" height="24"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animation Info" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02i-Hk-vsy">
+                                        <rect key="frame" x="7.5" y="8.5" width="279" height="153"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <constraints>
-                                    <constraint firstItem="2GU-vs-YL3" firstAttribute="leading" secondItem="MmK-3j-MpD" secondAttribute="leading" constant="10" id="5Sn-Me-sb3"/>
-                                    <constraint firstItem="2GU-vs-YL3" firstAttribute="centerY" secondItem="MmK-3j-MpD" secondAttribute="centerY" id="XKZ-Mo-Iy6"/>
+                                    <constraint firstItem="02i-Hk-vsy" firstAttribute="centerX" secondItem="MmK-3j-MpD" secondAttribute="centerX" id="KYa-Xc-nUL"/>
+                                    <constraint firstItem="02i-Hk-vsy" firstAttribute="centerY" secondItem="MmK-3j-MpD" secondAttribute="centerY" id="PpD-t9-ngz"/>
+                                    <constraint firstItem="02i-Hk-vsy" firstAttribute="height" secondItem="MmK-3j-MpD" secondAttribute="height" multiplier="0.9" id="big-PQ-4aA"/>
                                     <constraint firstAttribute="height" constant="170" id="r2j-JM-Jph"/>
+                                    <constraint firstItem="02i-Hk-vsy" firstAttribute="width" secondItem="MmK-3j-MpD" secondAttribute="width" multiplier="0.95" id="uBM-cj-xrv"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -98,13 +71,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="animationInfo" destination="02i-Hk-vsy" id="au0-HK-Nqt"/>
                         <outlet property="infoView" destination="MmK-3j-MpD" id="xXt-KM-DUi"/>
-                        <outlet property="runButton" destination="oPe-wj-1Hf" id="AE8-qv-ldO"/>
-                        <outletCollection property="infoCollection" destination="SYc-cJ-TJp" collectionClass="NSMutableArray" id="yWv-VD-enH"/>
-                        <outletCollection property="infoCollection" destination="anr-NJ-8uj" collectionClass="NSMutableArray" id="uHk-XL-X89"/>
-                        <outletCollection property="infoCollection" destination="njX-gN-rAw" collectionClass="NSMutableArray" id="YkW-oS-eQh"/>
-                        <outletCollection property="infoCollection" destination="19L-ZR-aYM" collectionClass="NSMutableArray" id="xJQ-Do-Qhf"/>
-                        <outletCollection property="infoCollection" destination="Ejd-zP-iPP" collectionClass="NSMutableArray" id="ewB-Fr-iRD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
